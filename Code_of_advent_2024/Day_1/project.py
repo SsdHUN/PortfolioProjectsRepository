@@ -1,9 +1,13 @@
+def process_file(file_path):
+    first_column = []
+    second_column = []
 
-
-def open_file(file_path):
     with open(file_path, "r") as data:
         for line in data:
-            print(line)
+            number = line.strip().split()
+            first_column.append(int(number[0]))
+            second_column.append(int(number[1]))
+    return first_column, second_column
 
 if __name__ == "__main__":
-    open_file("data.json")
+    print(process_file("data.json"))
