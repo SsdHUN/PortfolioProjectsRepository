@@ -9,5 +9,14 @@ def process_file(file_path):
             second_column.append(int(number[1]))
     return first_column, second_column
 
+def count_distance():
+    distance = 0
+    first_lsit , second_list = process_file("data.json")
+    first_lsit.sort()
+    second_list.sort()
+    for i in range(len(first_lsit)):
+        distance += abs(first_lsit[i] - second_list[i])
+    return distance
+
 if __name__ == "__main__":
-    print(process_file("data.json"))
+    print(count_distance())
