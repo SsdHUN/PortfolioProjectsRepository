@@ -1,0 +1,5 @@
+Advent of Code is an annual online programming challenge held every December.
+The challenge consists of 24 daily puzzles,
+each with a Christmas-themed narrative and a pair of programming problems.
+
+link: https://adventofcode.com/2024
