@@ -43,7 +43,7 @@ Your actual left and right lists contain many location IDs. What is the total di
 
 To begin, get your puzzle input.(Json file)
 
-Answer: _________. (--1882714--)
+Answer: _________. (--The answer is 1882714.--)
  
 
 You can also [Share] this puzzle.
@@ -77,7 +77,7 @@ So, for these example lists, the similarity score at the end of this process is 
 
 Once again consider your left and right lists. What is their similarity score?
 
-Answer: _________
+Answer: _________  (--The answer is 19437052.--)
  
 
 Although it hasn't changed, you can still get your puzzle input.
