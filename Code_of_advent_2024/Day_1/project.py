@@ -18,5 +18,16 @@ def count_distance():
         distance += abs(first_lsit[i] - second_list[i])
     return distance
 
+
+def count_similarity_score():
+    score = 0
+    first_lsit , second_list = process_file("data.json")
+    for number in first_lsit:
+        count = second_list.count(number)
+        score += number * count
+    return score
+
+
 if __name__ == "__main__":
-    print(count_distance())
+    print(f'first task: {count_distance()}')
+    print(f'second task: {count_similarity_score()}')
